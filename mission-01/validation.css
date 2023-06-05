@@ -1,0 +1,21 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+.validation-list {
+  list-style: none;
+}
+.validation-link {
+  display: block;
+  box-sizing: border-box;
+  width: 250px;
+  height: 37px;  
+  text-decoration: none;
+  padding: 8px 0 8px 36px;
+  margin-bottom: 16px;
+  color: black; 
+  background: url(./images/validation_icon\ 2.png) no-repeat 16px 50%, 
+              url(./images/validation_icon\ 2.png) no-repeat 16px 50%;
+  border-radius: 30px;
+  background-color: #CCCCCC;
+}
