@@ -1,0 +1,113 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto,
+    "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR",
+    "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    sans-serif;
+}
+h1 {
+  margin: 0;
+  color: #FFFF00;
+  font-weight: 700;
+  font-size: 0.9375rem;
+  margin-bottom: 8px;
+}
+hr {
+  position: absolute;
+  width: 209px;
+  margin: 0;
+  left: 12.5px;
+}
+.a11yHidden,
+legend {
+  overflow: hidden;
+  position: absolute !important;
+  clip: rect(0, 0, 0, 0);
+  clip-path: inset(50%);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+.login {
+  background: linear-gradient(90deg,  #ED552F, #E8852E);
+  box-sizing: border-box;
+  padding: 12px;
+  width: 260px;
+  height: 161px;
+  border-radius: 5px;
+}
+.login-wrapper {
+  position: relative;
+}
+.login-form {
+  box-sizing: border-box;
+  background:white;
+  width: 236px;
+  height: 70px;
+  border-radius: 5px 5px 0px 0px;
+  padding: 8px 16px 8px 16px;
+  font-weight: 400;
+  font-size: 0.875rem;
+}
+
+.login-form input {
+  width: 90px;
+  height: 21px;
+  border: 1px solid #CCCCCC;
+  border-radius: 5px;
+  margin-bottom: 4px;
+}
+.login-form button {
+  position: absolute;
+  font-size: 0.8125rem;
+  border: 0;
+  border-radius: 5px;
+  width: 50px;
+  height: 53px;
+  padding: 4px;
+  background-color: #ED552F;
+  color: white;
+  left: 170px;
+  top: 8px;
+}
+.login-group {
+  width: 148px;
+  height: 52px;
+  margin: 0;
+}
+#loginId {
+  margin-left: 12px;
+}
+.login-option {
+  box-sizing: border-box;
+  background:white;
+  width: 236px;
+  height: 36px;
+  border-radius: 0px 0px 5px 5px;
+  padding: 4px 8px 4px 8px;
+}
+.login-option ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+.login-option a { 
+  text-decoration: none;
+  color: black;
+  font-size: 0.8125rem;
+  font-weight: 400;
+}
+.login-option li:first-child {
+  float: left;
+}
+.login-option li:last-child {
+  float: right;
+}
