@@ -29,15 +29,13 @@ body {
   width: 166px;
   height: 21px;
   overflow: hidden;
-  transition: height 500ms , padding-top 400ms 300ms;
+  transition: height 500ms, padding-top 500ms 500ms;
 }
 
 .listWrapper:hover {
   padding-top: 5px;
-  transition: 400ms;
   width: 166px;
   height: 145px;
-  transition: height 500ms , padding-top 400ms 300ms;
 }
 
 .site--list {
