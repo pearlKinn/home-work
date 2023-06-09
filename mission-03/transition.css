@@ -16,6 +16,7 @@ body {
 .related-site {
   margin: 0 0 8px 0;
   font-size: 0.9375rem;
+  font-weight: 700;
 }
 .related-site .emphasis {
   display: inline;
