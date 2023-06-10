@@ -39,7 +39,7 @@ body {
   height: 145px;
 }
 
-.site--list {
+.site__list {
   position: relative;
   top: -5px;
   display: flex;
@@ -53,11 +53,11 @@ body {
   line-height: 27px;
 }
 
-.site--item {
+.site__item {
   height: 29px;
 }
 
-.site--item a {
+.site__item a {
   color: #000;
   text-decoration: none;
   font-size: 0.875rem;
