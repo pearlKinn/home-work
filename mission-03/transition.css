@@ -60,5 +60,7 @@ body {
 .site__item a {
   color: #000;
   text-decoration: none;
+  /* display: block을 사용하여 리스트 어느 곳에 마우스를 올려도 링크가 선택될 수 있게 수정 */
+  display: block;
   font-size: 0.875rem;
 }
