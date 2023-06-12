@@ -1,0 +1,85 @@
+body {
+  font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto,
+    "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR",
+    "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    sans-serif;
+}
+figure {
+  margin: 0;
+}
+
+.news {
+  position: relative;
+  width: 380px;
+  height: 200px;
+  margin: 0;
+}
+
+.news h2 {
+  margin: 0;
+  color: #ed552f;
+  font-size: 0.875rem;
+  font-weight: 700;
+}
+.news-more {
+  font-weight: 400;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.news-more i {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+}
+hr {
+  width: 266px;
+  border:0;
+  margin:12px 0;
+  height: 1px;
+  background: linear-gradient(to right, #A9A9A9, #FFFFFF);
+}
+.news-container {
+  box-sizing: border-box;
+  display: grid;
+  padding-top: 12px;
+  width: 380px;
+  height: 200px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  gap: 12px;
+}
+.news-image {
+  grid-area: 1 / 1 / 4 / 2;
+  width: 112px;
+  height: 103px;
+}
+.news-image img {
+  margin-bottom: 16px;
+  box-shadow: 1px 10px 10px 10px #aaa;
+}
+ figcaption {
+  text-align: center;
+}
+.news-title {
+  grid-area: 1 / 2 / 3 / 2;
+  width: 192px;
+  height: 21px;
+  font-size: 0.875rem;
+  line-height: 1.3125rem;
+  margin-bottom: 12px;
+}
+.news-title .title{
+  font-weight: 700;
+}
+.news-title .date {
+  font-weight: 400;
+}
+.news-detail {
+  grid-area: 2 / 2 / 4/ 3;
+  width: 251px;
+  height: 84px;
+  text-align: justify;
+  font-size: 0.875rem;
+line-height: 1.3125rem;
+}
