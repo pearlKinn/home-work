@@ -34,10 +34,10 @@ figure {
 }
 hr {
   width: 266px;
-  border:0;
-  margin:12px 0;
+  border: 0;
+  margin: 12px 0;
   height: 1px;
-  background: linear-gradient(to right, #A9A9A9, #FFFFFF);
+  background: linear-gradient(to right, #a9a9a9, #ffffff);
 }
 .news-container {
   box-sizing: border-box;
@@ -58,7 +58,7 @@ hr {
   margin-bottom: 16px;
   box-shadow: 1px 10px 10px 10px #aaa;
 }
- figcaption {
+figcaption {
   text-align: center;
 }
 .news-title {
@@ -69,17 +69,17 @@ hr {
   line-height: 1.3125rem;
   margin-bottom: 12px;
 }
-.news-title .title{
+.news-title .title {
   font-weight: 700;
 }
 .news-title .date {
   font-weight: 400;
 }
 .news-detail {
-  grid-area: 2 / 2 / 4/ 3;
+  grid-area: 2 / 2 / 4 / 3;
   width: 251px;
   height: 84px;
   text-align: justify;
   font-size: 0.875rem;
-line-height: 1.3125rem;
+  line-height: 1.3125rem;
 }
