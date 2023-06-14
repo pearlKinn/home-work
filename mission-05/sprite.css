@@ -1,0 +1,114 @@
+body {
+  font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto,
+    "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR",
+    "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    sans-serif;
+}
+
+.favoriteSite {
+  box-sizing: border-box;
+  position: relative;
+  width: 190px;
+  height: 147px;
+  background: linear-gradient(#cccccc, #eeeeee);
+  border: 1px solid #a3a3a3;
+  border-radius: 5px;
+  padding: 12px;
+}
+
+.site-title {
+  margin: 0;
+  font-weight: 700;
+  line-height: 1.4063rem;
+  font-size: 0.9375rem;
+}
+
+.accent-site-title {
+  color: orangered;
+}
+
+.favorite-rank-wrapper {
+  margin-top: 8px;
+  width: 166px;
+  height: 92px;
+}
+
+.favorite-rank-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 0;
+  list-style: none;
+  position: relative;
+  gap: 8px;
+  top: -8px;
+}
+
+.favorite-rank-item {
+  font-size: 0.6875rem;
+  line-height: 1.0313rem;
+}
+
+.sprite {
+  background: url(../assets/rank.png) no-repeat top right;
+}
+
+.sprite1 {
+  background-position: 155px 3px;
+  position: relative;
+}
+
+.sprite2 {
+  background-position: 155px -42px;
+}
+
+.sprite3 {
+  background-position: 155px -19px;
+}
+
+.sprite4 {
+  background-position: 155px 3px;
+}
+
+.favorite-rank-item a {
+  text-decoration: none;
+  color: inherit;
+  padding-left: 20px;
+}
+
+.favorite-rank-list li::before {
+  color: white;
+  background: #a3a3a3;
+  border-radius: 5px;
+  box-sizing: border-box;
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  position: absolute;
+  text-align: center;
+  line-height: 16px;
+}
+
+.favorite-rank-list li:nth-child(1)::before {
+  content: "1";
+}
+
+.favorite-rank-list li:nth-child(2)::before {
+  content: "2";
+}
+
+.favorite-rank-list li:nth-child(3)::before {
+  content: "3";
+}
+
+.favorite-rank-list li:nth-child(4)::before {
+  content: "4";
+}
+
+.site-more {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  text-decoration: none;
+  color: inherit;
+}
