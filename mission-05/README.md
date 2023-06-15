@@ -73,6 +73,33 @@ body
 ```
  `.favorite-rank-list` 클래스 내부의 `li` 요소의 가상 요소인 `::before`에 스타일을 적용하여 원형 모양의 텍스트 배경을 만들고, 텍스트를 가운데 정렬하여 아이콘과 같은 시각적인 효과를 구현했다.
 ```css
+.favorite-rank-item {
+  font-size: 0.6875rem;
+  line-height: 1.0313rem;
+  counter-increment: number;
+}
+.favorite-rank-item a {
+  text-decoration: none;
+  color: inherit;
+  padding-left: 20px;
+}
+.favorite-rank-item::before {
+  content: counter(number);
+  color: white;
+  background: #a3a3a3;
+  border-radius: 5px;
+  box-sizing: border-box;
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  position: absolute;
+  text-align: center;
+  line-height: 16px;
+}
+```
+`counter-increment: number;`와 `content: counter(number);`css를 더 간단하게 수정해보았다.
+`counter-increment: number;`는 list의 차례를 기억하고 `counter(number);`는 기억한 숫자를 불러오는 역할을 한다.
+```css
 .sprite {
   background: url(../assets/rank.png) no-repeat top right;
 }
