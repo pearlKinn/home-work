@@ -47,6 +47,27 @@ body {
 .favorite-rank-item {
   font-size: 0.6875rem;
   line-height: 1.0313rem;
+  counter-increment: number;
+}
+
+.favorite-rank-item a {
+  text-decoration: none;
+  color: inherit;
+  padding-left: 20px;
+}
+
+.favorite-rank-item::before {
+  content: counter(number);
+  color: white;
+  background: #a3a3a3;
+  border-radius: 5px;
+  box-sizing: border-box;
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  position: absolute;
+  text-align: center;
+  line-height: 16px;
 }
 
 .sprite {
@@ -67,41 +88,6 @@ body {
 
 .sprite4 {
   background-position: 155px 3px;
-}
-
-.favorite-rank-item a {
-  text-decoration: none;
-  color: inherit;
-  padding-left: 20px;
-}
-
-.favorite-rank-list li::before {
-  color: white;
-  background: #a3a3a3;
-  border-radius: 5px;
-  box-sizing: border-box;
-  width: 16px;
-  height: 16px;
-  display: inline-block;
-  position: absolute;
-  text-align: center;
-  line-height: 16px;
-}
-
-.favorite-rank-list li:nth-child(1)::before {
-  content: "1";
-}
-
-.favorite-rank-list li:nth-child(2)::before {
-  content: "2";
-}
-
-.favorite-rank-list li:nth-child(3)::before {
-  content: "3";
-}
-
-.favorite-rank-list li:nth-child(4)::before {
-  content: "4";
 }
 
 .site-more {
